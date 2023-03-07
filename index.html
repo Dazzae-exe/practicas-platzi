@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curso practico de JavaScript</title>
+  </head>
+  <body>
+    <!-- Manipulación del DOM: Escribiendo HTML desde JS -->
+    <h1>Manipulación de DOM básica</h1>
+    <p class="parrafo" parrafito="this">Hello</p>
+    <p id="parrafo">World</p>
+    <input type="text" name="text" id="inputId" value="123">
+
+    <br />
+    <hr />
+    <br />
+
+    <!-- Eventos en JavaScript: interactuando con usuarios y addEventListener -->
+    <form id="form">
+      <input type="text" id="calculo1" placeholder="Escribé algo aquí">
+      <br />
+      <br />
+      <input type="text" id="calculo2" placeholder="Escribé algo aquí" onchange="console.log('Onchange: cambió el input')">
+      <!-- <button id="btnCalcular" onclick="btnOnClick()">Calcular</button> -->
+      <button id="btnCalcular">Calcular</button>
+    </form>
+  </body>
+
+  <script src="./script.js"></script>
+</html>
